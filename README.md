@@ -55,6 +55,28 @@ http://127.0.0.1:5000
 
 The model is trained on the Titanic dataset and predicts survival outcomes for new passenger data.
 
+## Model Performance
+
+Validation Accuracy (Random Forest): 84.36%
+
+Kaggle Competition:
+Titanic - Machine Learning from Disaster
+
+Public Leaderboard Score:
+0.76794
+
+Number of Submissions:
+3
+
+## Repository Contents
+
+- EDA and Feature Engineering
+- Model Comparison (Logistic Regression, Decision Tree, Random Forest)
+- Hyperparameter Tuning using GridSearchCV
+- Trained Model (.pkl)
+- Flask Web Application
+- REST API (/api/predict)
+
 ## Future Improvements
 
 - Deploy the application online
